@@ -6,9 +6,8 @@
 }
 
 body {
-    background-image: url('https://example.com/beautiful-india.jpg'); 
-    background-size: cover;
-    background-position: center;
+    
+
     color: #333;
     overflow-x: hidden;
 }
