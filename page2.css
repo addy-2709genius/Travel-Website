@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(90deg, #333, #555);
+    color: #fff;
+    padding: 1rem;
+    animation: slideInDown 1s ease;
+}
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+}
+
+
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #626161;
+    color: white;
+    animation: fadeIn 2s ease;
+}
+
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: slideInLeft 1s ease forwards;
+}
+
+
+
+.hero p {
+    font-size: 1.2rem;
+    animation: slideInRight 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+
+
+.section {
+    padding: 2rem;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+
+
+.section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.trip-form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 1s ease;
+}
+
+
+
+.trip-form label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-top: 1rem;
+}
+
+.trip-form select,
+.trip-form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.trip-form button {
+    background-color: #ff6347;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 1rem;
+}
+
+.trip-form button:hover {
+    background-color: #ff4500;
+    transform: scale(1.05);
+}
+
