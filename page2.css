@@ -30,7 +30,16 @@ nav {
     font-size: 1.8rem;
     font-weight: bold;
 }
-
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 1s;
+}
 .nav-links {
     list-style: none;
     display: flex;
