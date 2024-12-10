@@ -66,22 +66,6 @@ header .overlay {
     transform: scale(1.1);
 }
 
-.explore-button,
-.travel-button {
-    padding: 1rem 2rem;
-    background-color: #f05d23;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    transition: transform 0.3s;
-    display: inline-block;
-    margin: 0.5rem; 
-}
-
-.travel-button:hover {
-    transform: scale(1.1);
-}
 .about {
     padding: 2rem;
     text-align: center;
@@ -123,4 +107,30 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.explore-button,
+.travel-button {
+    padding: 1rem 2rem;
+    background-color: #f05d23;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s;
+    display: inline-block;
+    margin: 0.5rem; 
+}
+
+.travel-button:hover {
+    transform: scale(1.1);
 }
