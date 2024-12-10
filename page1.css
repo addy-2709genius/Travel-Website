@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+header .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('pexels-photo-1172665.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-title .highlight {
+    color: #f05d23;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.explore-button {
+    padding: 1rem 2rem;
+    background-color: #f05d23;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s;
+}
+
+.explore-button:hover {
+    transform: scale(1.1);
+}
+
+.explore-button,
+.travel-button {
+    padding: 1rem 2rem;
+    background-color: #f05d23;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s;
+    display: inline-block;
+    margin: 0.5rem; 
+}
+
+.travel-button:hover {
+    transform: scale(1.1);
+}
